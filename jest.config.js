@@ -1,7 +1,9 @@
 // jest.config.js
-module.exports = {
-    testMatch: [
-        '<rootDir>/src/**/*.test.js',
-        '<rootDir>/src/**/*.test.jsx',
-    ]
-}
+const config = { 
+    "testEnvironment": "node", 
+    "testPathIgnorePatterns": [], 
+    "haste": { 
+      "retainAllFiles": true 
+    } 
+  }; 
+  module.exports = config; 
