@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+jest.config.js
 
 # testing
 /coverage
