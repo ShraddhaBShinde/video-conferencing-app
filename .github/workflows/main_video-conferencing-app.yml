@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'video-conferencing-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A00F7E51D46047D8AFE1C037EE58DF4D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD8D4E35D2EA43C59298837BE1D42C82 }}
           package: .
